@@ -10,7 +10,7 @@ $(document).ready(function() {
 // and then appends it to the existing list of items.
 // It also updates the counter at the top of the screen.
 function addItem() {
-  var text = window.prompt("New To-Do Item");
+  var text = window.prompt("New Grocery Item");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   // console.log("Yup!");
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
