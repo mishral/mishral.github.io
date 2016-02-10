@@ -2,7 +2,7 @@
 // so this it is prepared to react to user events.
 $(document).ready(function() {
   $(".btn").on("click", addItem);
-  // $(".link-delete").on("click", deleteItem);
+  $(".link-delete").on("click", deleteItem);
   $("ol").on("click", ".link-delete", deleteItem);
 });
 
